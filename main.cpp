@@ -37,7 +37,7 @@ int main() {
 				<< Num1 << " - " << Num2 << " - " << "1" << answer << endl;
 		}
 
-		else 
+		else if (answer == al)
 		{
 			
 			cout << "Answer " << Num1 << " = "
@@ -53,7 +53,7 @@ int main() {
 				<< "1" << " = " << answer <<  endl;
 		}
 
-		else
+		else if (answer == al2)
 		{
 			cout << "Answer " << Num1 << " = "
 				<< Num1 << " + " << Num2 << " - " << "1" << al2 << endl;
