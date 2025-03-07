@@ -37,14 +37,6 @@ int main() {
 				<< Num1 << " - " << Num2 << " - " << "1" << answer << endl;
 		}
 
-		else if (answer == al)
-		{
-			
-			cout << "Answer " << Num1 << " = "
-				<< Num1 << " - " << Num2 << " - " << "1" << al << endl;
-		
-		}
-
 		if (op == "+" && answer == al2) {
 
 
@@ -53,11 +45,6 @@ int main() {
 				<< "1" << " = " << answer <<  endl;
 		}
 
-		else if (answer == al2)
-		{
-			cout << "Answer " << Num1 << " = "
-				<< Num1 << " + " << Num2 << " - " << "1" << al2 << endl;
-		}
 
 
 	}
