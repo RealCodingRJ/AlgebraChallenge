@@ -34,14 +34,15 @@ int main() {
 
 
 			cout << "Answer " << Num1 << " = "
-				<< Num1 << " - " << Num2 << " - " << "1" << endl;
+				<< Num1 << " - " << Num2 << " - " << "1" << answer << endl;
 		}
 
 		if (op == "+" && answer == al2) {
 
 
 			cout << "Answer " << Num1 << " = "
-				<< Num1 << " + " << Num2 << " - " << "1" << endl;
+				<< Num1 << " + " << Num2 << " - " 
+				<< "1" << " = " << answer <<  endl;
 		}
 
 

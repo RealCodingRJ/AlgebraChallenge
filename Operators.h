@@ -14,7 +14,7 @@ namespace Operator {
 		op.push_back("+");
 		op.push_back("-");
 
-		int index = rand() % 3;
+		int index = rand() % 2;
 		return op[index];
 	}
 }
