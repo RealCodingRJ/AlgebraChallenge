@@ -1,9 +1,12 @@
 namespace AddAl {
 
-	long AddAlNum(int a)
+	long AddAlNum(int a, int b)
 	{
 
-		return a = a + a - 1;
+
+		// a = a + b - 1;
+		
+		return a + b;
 	}
 
 }
